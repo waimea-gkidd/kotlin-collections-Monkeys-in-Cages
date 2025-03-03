@@ -2,12 +2,10 @@ const val NUMCAGES = 8
 const val EMPTY = "---"
 
 fun main() {
-    val cages = mutableListOf<String>()
-
     //-------------------------------------------------
     println("Setting up the cages...")
 
-    setupCages(cages)
+    val cages = setupCages()
 
     listAllCages(cages)
     println()
@@ -76,8 +74,10 @@ fun main() {
 }
 
 
-fun setupCages(cageList: MutableList<String>) {
+fun setupCages(): MutableList<String> {
+    val cageList = mutableListOf<String>()
     for (i in 1..NUMCAGES) cageList.add(EMPTY)
+    return cageList
 }
 
 
