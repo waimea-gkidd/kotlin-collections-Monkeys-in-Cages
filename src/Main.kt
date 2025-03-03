@@ -75,6 +75,7 @@ fun main() {
     println("Clearing out some monkeys...")
 
     clearCage(cages, 5)
+    clearCage(cages, 2)
     println()
 
     showMonkeyCages(cages)
