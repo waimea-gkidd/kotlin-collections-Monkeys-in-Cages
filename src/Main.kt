@@ -137,10 +137,7 @@ fun placeMonkeyInCage(cageList: MutableList<String>, cageNum: Int, name: String)
  * - Etc.
  */
 fun listAllCages(cageList: List<String>) {
-
-
 }
-
 
 /**
  * Display a list of all monkeys found in the given cage list:
